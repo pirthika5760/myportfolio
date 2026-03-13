@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prithika| Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="heading">
+            <h1>Portfolio<span></span></h1>
+        </div>
+        <nav id="options">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">About</a>
+        </nav>
+    </header>
+
+    <div class="glowing-circle circle1"></div>
+    <div class="glowing-circle circle2"></div>
+
+    <main>
+
+        <section id="home">
+            <div class="home-content">
+                <h2 class="typing-text">Hi, I'm Prithika</h2>
+                <p>I am a young developer in progress, excited about technology and innovation. I enjoy learning new
+                    tools, collaborating with others, and building projects that solve real-world problems. I am
+                    passionate about continuously improving my programming skills and exploring new technologies.
+                    Through hands-on projects, I aim to grow as a developer and create meaningful solutions that make a
+                    positive impact.</p>
+                <div class="home-btns">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="my-photo-container">
+                <div class="my-photo">
+                    <img src="images/pirthikaprofile_ .png" alt="Prithika's potrait">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="skills">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+                    <i class="fab fa-react color-react"></i>
+                    <h3>React</h3>
+                    <p>Component architecture, Hooks, and State Management.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-node-js color-node"></i>
+                    <h3>Node JS</h3>
+                    <p>Server-side JavaScript, REST APIs, and Asynchronous Programming.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-react color-react"></i>
+
+                    <h3>React Native</h3>
+                    <p>To build modern and efficient mobile applications.</p>
+                </div>
+
+
+
+
+                <div class="skill-card">
+                    <i class="fab fa-java color-java"></i>
+                    <h3>Java</h3>
+                    <p>OOPs, Servlets, Multithreading, and Enterprise Patterns.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-html5 color-html"></i>
+                    <h3>HTML & CSS</h3>
+                    <p>Responsive Design, Flexbox, Grid, and Modern UI.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-js color-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>DOM Manipulation, Async/Await, and ES6+ features.</p>
+                </div>
+
+
+
+
+                <div class="skill-card">
+                    <i class="fas fa-database color-mysql"></i>
+                    <h3>MySQL</h3>
+                    <p>Schema Design, Complex Queries, and Optimization.</p>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+        <section id="tools">
+            <div class="section-header">
+                <h2>Tools I Use</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-item">
+                    <i class="fas fa-code"></i>
+                    <span>VS Code</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-terminal"></i>
+                    <span>Eclipse</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Zoho Code</span>
+                </div>
+
+                <div class="tool-item">
+                    <i class="fas fa-vial"></i>
+                    <span>Selenium</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-rocket"></i>
+                    <span>Postman</span>
+                </div>
+
+                <div class="tool-item">
+                    <i class="fas fa-robot"></i>
+                    <span>ChatGPT</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-brain"></i>
+                    <span>Gemini</span>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Stitch</span>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="js">JS</button>
+                <button class="filter-btn" data-filter="html">HTML</button>
+                <button class="filter-btn " data-filter="scratch">SCRATCH</button>
+                <button class="filter-btn" data-filter="nodejs">node js</button>
+                <button class="filter-btn" data-filter="team">Group Project</button>
+
+
+            </div>
+
+            <div class="projects-container">
+
+
+
+                <div class="project-card" data-category="team">
+                    <div class="project-img">
+                        <img src="images/Testora.svg" alt="Testora">
+                    </div>
+                    <div class="project-info">
+
+
+                        <h3>Testora</h3>
+                        <p>An online testing platform that allows users to take interactive quizzes and track results.
+                            Built using Java for backend logic and JavaScript for dynamic user interaction.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/sivasurya006/Testora" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-category="nodejs">
+                    <div class="project-img">
+                        <img src="images/rockpaperscissor.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">Node JS</span>
+
+                        <h3>Planet Facts Website</h3>
+                        <p>A Node.js web application that displays interesting facts and information about different
+                            planets using dynamic routing.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://planet-lonj.onrender.com/0" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+                                <a href="https://github.com/pirthika5760/Planet" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="js">
+                    <div class="project-img">
+                        <img src="images/spinwheel.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">JS</span>
+
+                        <h3>Spinning Wheel</h3>
+                        <p>A JavaScript-based spinning wheel application that randomly selects options with interactive
+                            animations.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/spinnigwheel" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-category="js">
+                    <div class="project-img">
+                        <img src="https://download.zoho.in/webdownload?x-service=CNT&event-id=176202000001628547&x-cli-msg=%7B%22scopeID%22:%22176202000000002008%22,%22size%22:%22full%22,%22fromMobile%22:%22true%22%7D"
+                            alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">JS</span>
+
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>A browser game where users play Rock Paper Scissors against the computer using JavaScript
+                            logic.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/RockPaperScissor" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="project-card" data-category="html">
+                    <div class="project-img">
+                        <img src="images/dog.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">HTML</span>
+
+                        <h3>iAdopt – Pet Adoption Website</h3>
+                        <p>A responsive pet adoption website recreate with animations.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/iAdopt" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="java">
+                    <div class="project-img">
+                        <img src="https://www.timechamp.io/blogs/wp-content/uploads/2023/08/Online-Attendance-Management-System-scaled.jpg"
+                            alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">Java</span>
+
+                        <h3>Attendance Management System</h3>
+                        <p>A Java application designed to record and manage student attendance.</p>
+                        <div class="project-links">
+
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/JavaConsoleProject" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="java">
+                    <div class="project-img">
+                        <img src="https://images.shiksha.com/mediadata/images/articles/1722507070phpOzlZtt.jpeg"
+                            alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">Java</span>
+
+                        <h3>ArrayList</h3>
+                        <p>A Java program demonstrating how to store and manage dynamic data using ArrayList.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/JAVA-MINPROJECT" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="html">
+                    <div class="project-img">
+                        <img src="images/phantom.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">HTML</span>
+
+                        <h3>Phantom Page</h3>
+                        <p>Landing page built using HTML and CSS focusing on modern layout design.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/phantomPage" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="html">
+                    <div class="project-img">
+                        <img src="images/altitude.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">HTML</span>
+
+                        <h3>Altitude Page</h3>
+                        <p>Webpage created to practice layout and UI design using HTML and CSS.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/phantomPage" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="project-card" data-category="html">
+                    <div class="project-img">
+                        <img src="images/fylo.png" alt="Word Puzzle Game">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">HTML</span>
+
+                        <h3>Fylo Landing Page</h3>
+                        <p>Landing page inspired by the Fylo design challenge built using HTML and CSS.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="https://ponkavi7a.github.io/WordGames/" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://github.com/pirthika5760/fyloPage" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-card" data-category="scratch">
+                    <div class="project-img">
+                        <img src="images/slimeflash.png" alt="Slime flash">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">Scratch</span>
+
+                        <h3>Slime Flash Game</h3>
+                        <p>An interactive Scratch game where players react quickly to visual cues and challenges.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://scratch.mit.edu/projects/1191096402" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="scratch">
+                    <div class="project-img">
+                        <img src="https://www.codingal.com/resources/wp-content/uploads/2023/07/Create-a-timer-in-Scratch.png"
+                            alt="Slime flash">
+                    </div>
+                    <div class="project-info">
+                        <span class="badge">Scratch</span>
+
+                        <h3>Scratch Wall Clock</h3>
+                        <p>A Scratch project that simulates a working wall clock with moving hour, minute, and second
+                            hands.</p>
+                        <div class="project-links">
+                            <button class="project-card-button">
+
+                                <a href="" target="_blank" class="demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </button>
+                            <button class="project-card-demobtn">
+
+                                <a href="https://scratch.mit.edu/projects/1185665411/editor" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+            <div class="section-header">
+                <h2>Let’s Connect<span></span></h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-sidebar">
+                    <div class="info-glass-card">
+                        <div class="icon-box">
+                            <i class="fas fa-id-badge"></i>
+                        </div>
+                        <div class="info-content">
+                            <span>Employee ID</span>
+                        </div>
+                        <div>
+                            <p>ZSTTK422</p>
+                        </div>
+
+                    </div>
+                    <div class="info-glass-card">
+
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div class="info-content">
+                            <span>Email Address</span>
+                        </div>
+                        <div>
+                            <p>pirthika.c@zohocorp.com</p>
+
+                        </div>
+                    </div>
+                    <div class="info-glass-card">
+
+                        <div class="icon-box"><i class="fab fa-github"></i></div>
+                        <div class="info-content">
+                            <span>GitHub Profile</span>
+                        </div>
+                        <div>
+                            <p>github.com/pirthika5760</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
